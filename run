@@ -1,0 +1,4 @@
+#!/bin/bash
+app=$1
+shift
+java -cp target/parsers.jar $@ eu.rtkaczyk.parsers.$app.Run
